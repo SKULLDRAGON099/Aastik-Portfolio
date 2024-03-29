@@ -75,12 +75,12 @@ const Navbar = () => {
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-                  <span className="bannerIcon">
+                  {/* <span className="bannerIcon">
                     <FaFacebookF />
                   </span>
                   <span className="bannerIcon">
                     <FaTwitter />
-                  </span>
+                  </span> */}
                   <span className="bannerIcon">
                     <FaLinkedinIn />
                   </span>

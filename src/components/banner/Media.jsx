@@ -1,6 +1,6 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact, FaGithub, FaPython} from "react-icons/fa";
+import { SiTailwindcss, SiFigma, SiNextdotjs, SiPowerbi, SiMysql } from "react-icons/si";
 const Media = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -10,11 +10,11 @@ const Media = () => {
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
-              <FaFacebookF />
+              <FaGithub />
             </span>
-            <span className="bannerIcon">
+            {/* <span className="bannerIcon">
               <FaTwitter />
-            </span>
+            </span> */}
             <span className="bannerIcon">
               <FaLinkedinIn />
             </span>
@@ -25,18 +25,24 @@ const Media = () => {
             BEST SKILL ON
           </h2>
           <div className="flex gap-4">
+          <span className="bannerIcon">
+              <SiFigma />
+              </span>
             <span className="bannerIcon">
               <FaReact />
             </span>
             <span className="bannerIcon">
-              <SiNextdotjs />
+              <FaPython />
             </span>
             <span className="bannerIcon">
+              <SiMysql />
+            </span>
+            <span className="bannerIcon">
+              <SiPowerbi />
+            </span>
+              {/* <span className="bannerIcon">
               <SiTailwindcss />
-            </span>
-            <span className="bannerIcon">
-              <SiFigma />
-            </span>
+            </span> */}
           </div>
         </div>
       </div>

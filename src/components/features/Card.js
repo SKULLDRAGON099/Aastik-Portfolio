@@ -9,22 +9,22 @@ const Card = ({item:{title,des,icon}}) => {
           <div className="w-10 h-8 flex flex-col justify-between">
         
             {icon ? (
-              <span className="text-5xl text-designColor">{icon}</span>
+              <span className="text-5xl text-orange-400">{icon}</span>
             ) : (
               <>
-                <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
-                <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
-                <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
-                <span className="w-full h-[2px] rounded-lg bg-designColor inline-flex"></span>
+                <span className="w-full h-[2px] rounded-lg bg-orange-400 inline-flex"></span>
+                <span className="w-full h-[2px] rounded-lg bg-orange-400 inline-flex"></span>
+                <span className="w-full h-[2px] rounded-lg bg-orange-400 inline-flex"></span>
+                <span className="w-full h-[2px] rounded-lg bg-orange-400 inline-flex"></span>
               </>
             )}
           </div>
           <div className="flex flex-col gap-6">
-            <h2 className="text-xl md:text-2xl font-titleFont font-bold text-gray-300">
+            <h2 className="text-xl md:text-2xl font-titleFont font-bold text-fuchsia-200">
               {title}
             </h2>
             <p className="base">{des}</p>
-            <span className="text-2xl text-designColor">
+            <span className="text-2xl text-fuchsia-200">
               <HiArrowRight />
             </span>
           </div>

@@ -12,27 +12,19 @@ const Education = () => {
       {/* part one */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">1998 - 2010</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
+          <p className="text-sm text-orange-400 tracking-[4px]">2020 - 2024</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-fuchsia-200">Graduation</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="BSc in Computer Science"
-            subTitle="University of DVI (2006 - 2010)"
-            result="3.90/4"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
-          />
-          <ResumeCard
-            title="AS - Science & Information"
-            subTitle="SuperKing College (2001 - 2005)"
-            result="4.75/5"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
-          />
-          <ResumeCard
-            title="Secondary School Education"
-            subTitle="Kingstar Secondary School (1998 - 2000)"
-            result="5.00/5"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            title="B.E in Electrical and Computer Engineering"
+            subTitle="Thapar Institute of Engineering and Technology, Patiala"
+            result="8.71 / 10"
+            des="In my B.E. program, I've delved into a comprehensive array of subjects spanning both 
+            electrical engineering and computer science domains. Courses such as Object-Oriented Programming 
+            (OOPs), Operating Systems, Computer Networks, Database Management Systems and Cybersecurity
+             have equipped me with a strong foundation in software development principles and practices. 
+            On the electrical engineering front, I've explored subjects including Electric Vehicles, Electric Machines, and Power Systems, which have provided me with a deep understanding of energy systems."
           />
         </div>
       </div>
@@ -40,27 +32,21 @@ const Education = () => {
 
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
+          <p className="text-sm text-orange-400 tracking-[4px]">2017 - 2020</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-fuchsia-200">School</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="Senior Secondary, (10+2 PCM)"
+            subTitle="DAV Public School, Grugaon (2019-20)"
+            result="94.8% - CBSE"
+            des="Did my schooling from DAV Public School, Sec-14, Gurgaon, took PCM in 10+2, and got 94.8% in board examination."
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
-          />
-          <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            title="Matriculation, (10th Grade)"
+            subTitle="DAV Public School, Grugaon (2017-18)"
+            result="92% - CBSE"
+            des="Did my schooling from DAV Public School, Sec-14, Gurgaon and got 92% in board examination."
           />
         </div>
       </div>

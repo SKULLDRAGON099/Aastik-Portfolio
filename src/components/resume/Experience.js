@@ -11,31 +11,37 @@ const Experience = () => {
     >
       <div>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
-          <h2 className="text-4xl font-bold">Job Experience</h2>
+          <p className="text-sm text-designColor tracking-[4px]">2024 - 2021</p>
+          <h2 className="text-4xl font-bold">Internship Experience</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="UI/UX Designer Intern"
+            subTitle="Chatbot.team - (Jan 2024 - Present)"
+            result="Remote"
+            des="To create intuitive and visually appealing user interfaces, proficiency in utilizing Figma, a collaborative design tool,
+is employed. Committed to improving existing designs for enhanced user experience and accessibility, aiming to boost customer
+engagement and understanding of interpretative information."
           />
           <ResumeCard
-            title="Web Developer & Trainer"
-            subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            title="Software Engineer & Business Development Intern"
+            subTitle="TalentServe - (Jun 2023 - July 2023)"
+            result="Remote"
+            des="Created an Expense Tracking Website to help users track their income and expenses, categorize transactions,
+and provide financial insights and reports. It was built using the MERN stack
+Conducted market research for 50+ local training centers in my city, specializing in ML, Web Development, Data
+Analysis, and Python courses, as part of my role at EdTech start-up."
           />
           <ResumeCard
-            title="Front-end Developer"
-            subTitle="Nike - (2020 - 2011)"
-            result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            title="Data Quality Intern"
+            subTitle="Anar App Pvt. Ltd - (Feb 2022)"
+            result="Remote"
+            des="Checked all the products posted by the users on the Anar app as a part of Data Segregation and Item Tagging
+and marked them correctly, accessing this through a dashboard. Daily item tagging target was 700+."
           />
         </div>
       </div>
-      <div>
+      {/* <div>
         <div className="flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
           <h2 className="text-4xl font-bold">Trainer Experience</h2>
@@ -60,7 +66,7 @@ const Experience = () => {
             des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
           />
         </div>
-      </div>
+      </div> */}
     </motion.div>
   );
 };
